@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  # generates UsersController
+  # uses model User by default
+  databound :users, columns: [:name, :city]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

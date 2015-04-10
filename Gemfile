@@ -5,6 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
+# Provides Javascript a simple API to the Ruby on Rails CRUD
+gem 'databound', '3.1.3'
+# Support for Cross-Origin Resource Sharing
+gem 'rack-cors', require: 'rack/cors'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -42,4 +46,3 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
