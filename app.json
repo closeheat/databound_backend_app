@@ -1,0 +1,13 @@
+{
+  "name": "Databound Backend App",
+  "description": "Backend app for template-databound.",
+  "keywords": [
+    "databound",
+    "crud",
+    "rails",
+    "lib",
+    "api"
+  ],
+  "addons": [],
+  "env": {}
+}
